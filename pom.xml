@@ -28,13 +28,13 @@
 
 	<artifactId>alvin-docker-gatekeeper</artifactId>
 	<packaging>pom</packaging>
-	<version>0.2-SNAPSHOT</version>
+	<version>0.3-SNAPSHOT</version>
 	<name>Alvin gatekeeper docker</name>
 
 	<properties>
 		<outputDirectory>${project.build.directory}/docker2</outputDirectory>
 
-		<alvin.version>0.1-SNAPSHOT</alvin.version>
+		<alvin.version>0.2-SNAPSHOT</alvin.version>
 		<gatekeeper.version>0.3-SNAPSHOT</gatekeeper.version>
 	</properties>
 
