@@ -35,8 +35,9 @@
 
 
 		<basicstorage.version>1.1.0</basicstorage.version>
-		<gatekeeperserver.version>1.0.1</gatekeeperserver.version>
+		<gatekeeperserver.version>1.1.0</gatekeeperserver.version>
 		<userpicker.version>1.0.0</userpicker.version>
+		<coralog4j.version>1.0.0</coralog4j.version>
 	</properties>
 
 	<scm>
@@ -61,10 +62,16 @@
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
-		<groupId>se.uu.ub.cora</groupId>
-		<artifactId>basicstorage</artifactId>
-		<version>${basicstorage.version}</version>
-		<scope>compile</scope>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>basicstorage</artifactId>
+			<version>${basicstorage.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>log4j</artifactId>
+			<version>${coralog4j.version}</version>
+			<scope>compile</scope>
 		</dependency>
 	</dependencies>
 
