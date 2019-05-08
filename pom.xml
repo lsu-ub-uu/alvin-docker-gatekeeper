@@ -34,8 +34,8 @@
 		<outputDirectory>${project.build.directory}/docker2</outputDirectory>
 
 
-		<basicstorage.version>1.1.0</basicstorage.version>
-		<gatekeeperserver.version>1.1.0</gatekeeperserver.version>
+		<basicstorage.version>1.2-SNAPSHOT</basicstorage.version>
+		<gatekeeperserver.version>1.2.0</gatekeeperserver.version>
 		<userpicker.version>1.0.0</userpicker.version>
 		<coralog4j.version>1.0.0</coralog4j.version>
 	</properties>
