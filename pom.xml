@@ -34,7 +34,7 @@
 		<outputDirectory>${project.build.directory}/docker2</outputDirectory>
 
 		<basicstorage.version>1.2.0</basicstorage.version>
-		<alvinmixedstorage.version>1.1.1</alvinmixedstorage.version>
+		<alvinmixedstorage.version>1.2.0</alvinmixedstorage.version>
 		<gatekeeper.version>1.1.0</gatekeeper.version>
 		<gatekeeperserver.version>1.2.0</gatekeeperserver.version>
 		<userpicker.version>1.1.0</userpicker.version>
