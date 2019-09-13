@@ -1,5 +1,6 @@
 <Context>
-	<Parameter name="storageOnDiskBasePath" value="/mnt/data/basicstorage/" override="false" />
+	<Parameter name="storageType" value="memory" override="false" />
+    <Parameter name="storageOnDiskBasePath" value="/mnt/data/basicstorage/" override="false" />
 	<Parameter name="guestUserId" value="coraUser:5368244264733286" override="false"/>
 	
 	<Parameter name="databaseLookupName" value="java:/comp/env/jdbc/postgres" override="false"/>
