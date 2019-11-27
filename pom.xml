@@ -32,13 +32,15 @@
 
 	<properties>
 		<outputDirectory>${project.build.directory}/docker2</outputDirectory>
-		<storage.version>2.1.0</storage.version>
-		<searchstorage.version>2.0.0</searchstorage.version>
-		<basicstorage.version>2.1.0</basicstorage.version>
-		<alvinmixedstorage.version>2.0.0</alvinmixedstorage.version>
+		<storage.version>3.1.0</storage.version>
+		<searchstorage.version>3.0.0</searchstorage.version>
+		<basicstorage.version>3.1.0</basicstorage.version>
+		<alvinmixedstorage.version>3.0.0</alvinmixedstorage.version>
 		<gatekeeper.version>2.0.0</gatekeeper.version>
-		<gatekeeperserver.version>2.1.0</gatekeeperserver.version>
-		<userpicker.version>2.0.0</userpicker.version>
+		<gatekeeperserver.version>3.0.0</gatekeeperserver.version>
+		<userpicker.version>3.0.0</userpicker.version>
+		<coradata.version>3.1.0</coradata.version>
+		<basicdata.version>1.1.0</basicdata.version>
 		<coralog4j.version>2.0.0</coralog4j.version>
 	</properties>
 
@@ -80,6 +82,16 @@
 			<artifactId>userpicker</artifactId>
 			<version>${userpicker.version}</version>
 			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>coradata</artifactId>
+			<version>${coradata.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>basicdata</artifactId>
+			<version>${basicdata.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>se.uu.ub.cora</groupId>
