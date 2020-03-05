@@ -32,7 +32,7 @@
 
 	<properties>
 		<outputDirectory>${project.build.directory}/docker2</outputDirectory>
-		<alvingatekeeperwar.version>1.0.0</alvingatekeeperwar.version>
+		<alvingatekeeperwar.version>1.1-SNAPSHOT</alvingatekeeperwar.version>
 	</properties>
 
 	<scm>
