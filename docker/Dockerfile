@@ -1,11 +1,12 @@
-FROM  tomcat:9.0.27-jdk12-adoptopenjdk-hotspot
+ARG CORA_DOCKER_VERSION
+FROM cora-docker-tomcat:${CORA_DOCKER_VERSION}
 
 #COPY /storagefiles /mnt/data/basicstorage
 
 COPY /alvin-gatekeeper-war*.war /usr/local/tomcat/webapps/gatekeeperserver.war
 COPY /gatekeeperserver.xml /usr/local/tomcat/conf/Catalina/localhost/gatekeeperserver.xml
 
-COPY /*.properties /usr/local/tomcat/lib/
+#COPY /*.properties /usr/local/tomcat/lib/
 
 #build with:
 #maven build
