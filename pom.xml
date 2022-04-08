@@ -16,7 +16,7 @@
 	<parent>
 		<groupId>se.uu.ub.cora</groupId>
 		<artifactId>cora-parent</artifactId>
-		<version>1.4.4</version>
+		<version>2.0.0</version>
 	</parent>
 
 	<artifactId>alvin-docker-gatekeeper</artifactId>
@@ -28,8 +28,8 @@
 		<outputDirectory>${project.build.directory}/docker2</outputDirectory>
 		<exec-maven-plugin.version>3.0.0</exec-maven-plugin.version>
 
-		<cora-docker-tomcat.version>2.0.0</cora-docker-tomcat.version>
-		<alvingatekeeperwar.version>2.3-SNAPSHOT</alvingatekeeperwar.version>
+		<cora-docker-tomcat.version>2.1.0</cora-docker-tomcat.version>
+		<alvingatekeeperwar.version>2.4-SNAPSHOT</alvingatekeeperwar.version>
 	</properties>
 
 	<scm>
