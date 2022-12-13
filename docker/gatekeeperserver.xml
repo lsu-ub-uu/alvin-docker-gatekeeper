@@ -1,7 +1,4 @@
 <Context>
-	<Parameter name="storageType" value="memory" override="false" />
-	<Parameter name="storageOnDiskBasePath"
-		value="/mnt/data/basicstorage/" override="false" />
 	<Parameter name="guestUserId"
 		value="coraUser:5368244264733286" override="false" />
 
@@ -9,8 +6,7 @@
 		value="java:/comp/env/jdbc/postgres" override="false" />
 	<Resource name="jdbc/postgres" auth="Container"
 		type="javax.sql.DataSource" driverClassName="org.postgresql.Driver"
-		url="jdbc:postgresql://alvin-postgresql:5432/alvin"
-		username="alvin" password="alvin" maxTotal="20000" maxIdle="10"
-		maxWaitMillis="-1" />
+		url="jdbc:postgresql://alvin-postgresql:5432/alvin" username="alvin"
+		password="alvin" maxTotal="20000" maxIdle="10" maxWaitMillis="-1" />
 
 </Context>
