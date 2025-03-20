@@ -29,7 +29,7 @@
 		<exec-maven-plugin.version>3.5.0</exec-maven-plugin.version>
 
 		<cora-docker-tomcat.version>2.4.0</cora-docker-tomcat.version>
-		<alvingatekeeperwar.version>2.20-SNAPSHOT</alvingatekeeperwar.version>
+		<alvingatekeeperwar.version>2.21-SNAPSHOT</alvingatekeeperwar.version>
 	</properties>
 
 	<scm>
