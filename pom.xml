@@ -23,7 +23,7 @@
 
 	<properties>
 		<cora-docker-tomcat.version>2.6.0</cora-docker-tomcat.version>
-		<alvingatekeeperwar.version>2.25-SNAPSHOT</alvingatekeeperwar.version>
+		<alvingatekeeperwar.version>2.24.0</alvingatekeeperwar.version>
 		<!-- Override property so docker-build profile activates in this module -->
 		<docker.build.activate>true</docker.build.activate>
 	</properties>
